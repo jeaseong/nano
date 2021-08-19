@@ -1,0 +1,119 @@
+:root {
+    --headerFontSize: 40px;
+    --normalFontSize: 20px;
+    --normalMargin: 20px;
+    --farMargin: 40px;
+}
+
+
+.wrap {
+   
+}
+
+
+/* 스크롤버튼 */
+.scroll_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.content {
+    margin: 0 20px;
+}
+
+
+/* 해더 */
+.header_bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 1rem;
+
+  
+}
+
+.header_bar-logo {
+    max-width: 30%;
+    height:auto;
+    margin-left: var(--normalMargin);
+}
+.header_bar-more {
+    font-size: 30px;
+    margin-right: var(--normalMargin);
+}
+
+.bg-img {
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+
+/* 공지사항 */
+
+.contents_notice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.contents_notice .contents_notice-box {
+    border: 1px solid black;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contents_notice .contents_notice_header {
+    font-weight: bold;
+    font-size: var(--headerFontSize);
+    margin-bottom: var(--normalMargin);
+}
+
+.contents_notice .contents_notice-description {
+    font-size: var(--normalFontSize);
+    color: white;
+}
+
+
+/* 회사 정보 */
+
+.corInfo {
+    width: 100%;
+    height: 100vh;
+    margin: 0 20px;
+}
+
+.contents_corInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.corInfo-map_header {
+    font-size: var(--headerFontSize);
+    margin-bottom: var(--normalMargin);
+}
+
+.corInfo-map {
+    margin-bottom: var(--farMargin);
+}
+
+
+.corInfo-call_header {
+    font-size: var(--headerFontSize);
+    margin-bottom: var(--normalMargin);
+}
+
+
+
